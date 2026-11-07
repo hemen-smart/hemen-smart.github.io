@@ -5,17 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>فن و صنعت هوشمند هیمن</title>
 <link rel="icon" href="img/logo-sm.png">
+<meta property="og:title" content="فن و صنعت هوشمند هیمن | Hemen Smart">
+<meta property="og:description" content="خانه و ساختمان هوشمند، پنل لمسی، سامانه‌های حفاظتی و نظارتی، تجهیزات هتل، شبکه و اینترنت اشیا.">
+<meta property="og:image" content="https://hemen-smart.github.io/img/panel10.jpg">
+<meta property="og:url" content="https://hemen-smart.github.io/">
+<meta property="og:locale" content="fa_IR">
+<link rel="canonical" href="https://hemen-smart.github.io/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"شرکت فن و صنعت هوشمند هیمن","alternateName":"Hemen Smart Technologies","url":"https://hemen-smart.github.io/","logo":"https://hemen-smart.github.io/img/logo.png","image":"https://hemen-smart.github.io/img/panel10.jpg","telephone":"+989189996289","foundingDate":"2014","address":{"@type":"PostalAddress","streetAddress":"انتهای شهرک کشاورز، جنب فروشگاه کوروش","addressLocality":"سنندج","addressRegion":"کردستان","addressCountry":"IR"},"description":"خانه و ساختمان هوشمند، سامانه‌های حفاظتی و نظارتی، تجهیزات هتل، شبکه و اینترنت اشیا"}</script>
 <meta name="description" content="شرکت دانش‌بنیان فن و صنعت هوشمند هیمن، سنندج: خانه و ساختمان هوشمند، سامانه‌های حفاظتی و نظارتی، تجهیزات هتل، شبکه و اینترنت اشیا.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@300;400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@700;800&family=Vazirmatn:wght@300;400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{
   /* Layout idea: the site reads like the company's own control panel. A live 7-segment
      display and zone LEDs open the page; everything else is quiet, ruled, technical. */
   --paper:#f3f4f1; --panel:#ffffff; --ink:#15191c; --muted:#5a636a; --line:#d8dcd6;
-  --signal:#d7332a; --board:#0f5c3b; --display:#16090a;
-  --f-display:"Lalezar","Vazirmatn",Tahoma,sans-serif;
+  --signal:#1d4fb8; --board:#178c9c; --display:#16090a;
+  --f-display:"Noto Kufi Arabic","Vazirmatn",Tahoma,sans-serif;
   --f-body:"Vazirmatn",Tahoma,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
   --r:10px; --wrap:1160px;
@@ -24,20 +31,20 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --paper:#0f1214; --panel:#171b1e; --ink:#e8ebe7; --muted:#9aa3a9; --line:#283035;
-    --signal:#ff4d40; --board:#45c487; --display:#0b0506; color-scheme:dark;
+    --signal:#6f9bff; --board:#3cc3d3; --display:#0b0506; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --paper:#0f1214; --panel:#171b1e; --ink:#e8ebe7; --muted:#9aa3a9; --line:#283035;
-  --signal:#ff4d40; --board:#45c487; --display:#0b0506; color-scheme:dark;
+  --signal:#6f9bff; --board:#3cc3d3; --display:#0b0506; color-scheme:dark;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.85;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:inherit}
-h1,h2,h3{font-family:var(--f-display);font-weight:400;line-height:1.35;text-wrap:balance;margin:0}
-h1{font-size:clamp(2.1rem,5vw,3.6rem)}
+h1,h2,h3{font-family:var(--f-display);font-weight:800;line-height:1.5;letter-spacing:-.01em;text-wrap:balance;margin:0}
+h1{font-size:clamp(1.9rem,4vw,2.9rem)}
 h2{font-size:clamp(1.6rem,3.2vw,2.4rem)}
 h3{font-size:1.3rem}
 p{margin:0}
@@ -51,7 +58,7 @@ header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--p
 .top .wrap{display:flex;align-items:center;gap:24px;min-height:68px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand svg{width:38px;height:38px;flex:none}
-.brand b{font-family:var(--f-display);font-weight:400;font-size:1.25rem;line-height:1.1;display:block}
+.brand b{font-family:var(--f-display);font-weight:800;font-size:1.25rem;line-height:1.1;display:block}
 .brand small{display:block;font-size:.72rem;color:var(--muted);line-height:1.2}
 nav.main{display:flex;gap:4px;margin-inline-start:auto;flex-wrap:wrap}
 nav.main a{text-decoration:none;padding:6px 12px;border-radius:6px;font-size:.95rem;color:var(--muted)}
@@ -151,7 +158,7 @@ section{padding:64px 0}
 .facts{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden}
 .facts div{padding:20px 22px;border-inline-start:1px solid var(--line)}
 .facts div:first-child{border-inline-start:0}
-.facts b{display:block;font-family:var(--f-display);font-weight:400;font-size:1.9rem;line-height:1.2}
+.facts b{display:block;font-family:var(--f-display);font-weight:800;font-size:1.9rem;line-height:1.2}
 .facts span{color:var(--muted);font-size:.92rem}
 @media (max-width:760px){.facts{grid-template-columns:1fr 1fr}.facts div:nth-child(3){border-inline-start:0}.facts div:nth-child(n+3){border-top:1px solid var(--line)}}
 
@@ -195,7 +202,7 @@ section{padding:64px 0}
 .timeline{list-style:none;margin:0;padding:0;border-inline-start:2px solid var(--line)}
 .timeline li{position:relative;padding:0 22px 22px}
 .timeline li::before{content:"";position:absolute;inset-inline-start:-7px;top:9px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--signal)}
-.timeline b{font-family:var(--f-display);font-weight:400;font-size:1.25rem;display:block}
+.timeline b{font-family:var(--f-display);font-weight:800;font-size:1.25rem;display:block}
 .timeline span{color:var(--muted);font-size:.95rem}
 .values{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
 .values div{border-top:3px solid var(--ink);padding-top:12px}
@@ -307,7 +314,7 @@ footer nav{display:flex;gap:16px;flex-wrap:wrap}
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow">شرکت دانش‌بنیان · سنندج · از ۱۳۹۳</p>
+        <p class="eyebrow">شرکت دانش‌بنیان</p>
         <h1>کنترل خانه و ساختمان، <span>از هر جا که هستید</span></h1>
         <p class="lead">از پنل لمسی روی دیوار تا اپلیکیشن روی گوشی؛ سامانه‌های هوشمند کنترلی، حفاظتی و نظارتی را در کارگاه خودمان در سنندج طراحی و تولید می‌کنیم، و برای خانه‌ها، هتل‌ها، بانک‌ها و صنایع نصب و پشتیبانی می‌کنیم.</p>
         <div class="cta">
@@ -366,7 +373,7 @@ footer nav{display:flex;gap:16px;flex-wrap:wrap}
       <div><b>۱۳۹۳</b><span>سال تأسیس شرکت</span></div>
       <div><b>+۱۲ سال</b><span>تجربه در هوشمندسازی و حفاظت</span></div>
       <div><b>دانش‌بنیان</b><span>طراحی و تولید داخلی سخت‌افزار و نرم‌افزار</span></div>
-      <div><b>سنندج</b><span>دفتر مرکزی و کارگاه تولید</span></div>
+      <div><b>+۲۱۴</b><span>پروژه انجام‌شده</span></div>
     </div>
   </div>
 
